@@ -1,7 +1,7 @@
 ---
-layout: portfolio_item
 title: First Portfolio Item
-image: /img/face.png
+layout: portfolio_item
+image: "/img/face.png"
 ---
 
 #### Example 1
