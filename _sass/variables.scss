@@ -1,1 +1,27 @@
-$body-color: yellow;
+// COLORS
+$black: #1a1918;
+$green: #c5ff47;
+$pink: #f90692;
+$purple: #780A85;
+$white: #dddddd;
+
+// valid combos for text:
+// $white on $black
+// $black on $white
+// $green on $black
+// $pink on $black (fails aaa for small text)
+// $purple on $white
+
+
+// FONTS
+$space-mono: 'Space Mono', monospace;
+$neuton: 'Neuton', serif;
+
+$title-font: $space-mono;
+$body-font: $neuton;
+
+// BREAKPOINTS
+$large-width: 1280px;
+$medium-width: 1025px;
+$small-width: 700px;
+$mobile-width: 340px;

@@ -1,8 +1,15 @@
 ---
 ---
+@import url('https://fonts.googleapis.com/css?family=Neuton|Space+Mono');
 
 @import "variables";
+@import "typography";
 
 body {
-  color: $body-color;
+  background-color: $black;
+  color: $green;
+}
+
+a {
+  color: $pink;
 }
