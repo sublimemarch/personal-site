@@ -3,13 +3,11 @@ layout: default
 ---
 
 <div class="portfolio-item">
-  <h2 class="portfolio-item-content">
+  <h2 class="title">
     {{ page.title }}
   </h2>
-  <p class="portfolio-item-meta">
-    {{ page.date | date_to_string }}
-  </p>
-  <img src="{{ page.image }}"
+
+  <img src="{{ page.image }}" class="main-image" />
 
   {{ content }}
 </div>

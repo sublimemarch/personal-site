@@ -19,7 +19,28 @@
 
       img {
         max-height: 400px;
+        max-width: 400px;
       }
+    }
+  }
+
+  &-item {
+    .title {
+      margin-bottom: 1.5em;
+    }
+
+    .main-image {
+      max-width: 100%;
+      width: 600px;
+      margin-bottom: 1.5em;
+    }
+
+    p, h2, h3, h4, h5, h6 {
+      margin-bottom: 1em;
+    }
+
+    p {
+      color: white;
     }
   }
 }
