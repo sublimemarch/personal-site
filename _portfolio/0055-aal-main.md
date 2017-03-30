@@ -1,5 +1,5 @@
 ---
-title: Ask Again Later Character System
+title: Ask Again Later Main Site
 layout: portfolio_item
 image: "/img/aal-main.png"
 ---

@@ -42,5 +42,15 @@
     p {
       color: white;
     }
+
+    ul {
+      list-style: disc;
+      margin-left: 2em;
+
+      li {
+        margin-bottom: 1em;
+        line-height: 28px;
+      }
+    }
   }
 }
