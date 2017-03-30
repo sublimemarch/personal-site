@@ -4,15 +4,17 @@ permalink: "/portfolio/index.html"
 layout: default
 ---
 
-<h2>This is a list of all my portfolio items.</h2>
-<div class="portfolio">
+<section class="portfolio-index">
+  <p>A sample of my most recent projects and talks.</p>
   {% for item in site.portfolio %}
-    <h2 class="item-title"><a href="{{ item.url }}">{{ item.title }}</a></h2>
+    <div class="portfolio-index-item">
+      <h3 class="item-title"><a href="{{ item.url }}">{{ item.title }}</a></h2>
 
-    {% if item.image %}
-      <a href="{{ item.url }}">
-        <img src="{{ item.image }}" alt="{{ item.title }}" />
-      </a>
-    {% endif %}
+      {% if item.image %}
+        <a href="{{ item.url }}">
+          <img src="{{ item.image }}" alt="{{ item.title }}" />
+        </a>
+      {% endif %}
+    </div>
   {% endfor %}
-</div>
+</section>

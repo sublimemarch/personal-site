@@ -1,0 +1,25 @@
+.portfolio {
+  &-index {
+    p {
+      margin-bottom: 1em;
+      font-size: 20px;
+    }
+
+    &-item {
+      margin-top: 1.5em;
+
+      &:not(:last-child) {
+        border-bottom: 2px solid $purple;
+        padding-bottom: 1em;
+      }
+
+      .item-title {
+        margin-bottom: 1.5em;
+      }
+
+      img {
+        max-height: 400px;
+      }
+    }
+  }
+}
