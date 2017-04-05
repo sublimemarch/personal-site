@@ -1,0 +1,18 @@
+.homepage {
+  display: flex;
+  flex-direction: row;
+
+  img {
+    object-fit: cover;
+    height: auto;
+    width: auto;
+    max-width: 40%;
+    max-height: 400px;
+  }
+
+  &-blurb {
+    width: 60%;
+    margin-left: 1em;
+  }
+
+}

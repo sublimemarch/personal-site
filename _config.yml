@@ -5,10 +5,10 @@ collections:
   portfolio:
     title: Portfolio
     output: true
-    permalink: "/portfolio/:path"
-  posts:
-    title: Posts
-    output: true
+    permalink: "/portfolio/:path.html"
+  # posts:
+  #   title: Posts
+  #   output: true
   uploads:
     title: Uploads
     output: true
@@ -30,3 +30,4 @@ exclude:
 - Gemfile
 - Gemfile.lock
 - node_modules
+include: ['.htaccess']
