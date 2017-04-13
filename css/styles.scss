@@ -1,6 +1,7 @@
 ---
 ---
 @import url('https://fonts.googleapis.com/css?family=Neuton|Space+Mono');
+@import url('https://fonts.googleapis.com/css?family=Karla|Open+Sans|Roboto');
 
 @import "variables";
 @import "typography";
@@ -12,8 +13,4 @@
 
 body {
   background-color: $black;
-}
-
-a {
-  color: $pink;
 }

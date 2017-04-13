@@ -1,5 +1,5 @@
 body {
-  font-family: $title-font;
+  font-family: $body-font;
   font-size: 18px;
   color: $green;
 }
@@ -27,5 +27,9 @@ h4, h5, h6 {
 }
 
 p {
-  line-height: 28px;
+  line-height: 26px;
+}
+
+a {
+  color: $pink;
 }

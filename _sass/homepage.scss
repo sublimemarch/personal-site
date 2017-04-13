@@ -14,13 +14,13 @@
   }
 
   &-blurb {
-    line-height: 30px;
-    font-size: 22px;
+    line-height: 26px;
+    font-size: 18px;
   }
 
 }
 
-@media (min-width: $small-width) {
+@media only screen and (min-width: $small-width) {
   .homepage {
     img {
       width: 35vw;
@@ -36,7 +36,7 @@
   }
 }
 
-@media (max-width: $small-width) {
+@media only screen and (max-width: $small-width) {
   .homepage {
     flex-wrap: wrap;
     justify-content: center;
@@ -46,8 +46,8 @@
     }
 
     img {
-      width: 250px;
-      height: 250px;
+      width: 200px;
+      height: 200px;
       border-radius: 250px;
       margin-bottom: 1em;
     }

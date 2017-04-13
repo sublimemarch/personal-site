@@ -14,14 +14,18 @@ $white: #dddddd;
 
 
 // FONTS
+$karla: 'Karla', sans-serif;
+$open-sans: 'Open Sans', sans-serif;
+$roboto: 'Roboto', sans-serif;
+
 $space-mono: 'Space Mono', monospace;
 $neuton: 'Neuton', serif;
 
 $title-font: $space-mono;
-$body-font: $neuton;
+$body-font: $karla;
 
 // BREAKPOINTS
 $large-width: 1280px;
 $medium-width: 1025px;
-$small-width: 650px;
+$small-width: 670px;
 $mobile-width: 340px;
