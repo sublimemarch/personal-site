@@ -9,6 +9,9 @@ collections:
   posts:
     title: Posts
     output: true
+  talks:
+    title: Talks
+    output: true
   uploads:
     title: Uploads
     output: true
@@ -17,7 +20,7 @@ description: 'Stephanie Slattery is a front end web developer based in Chicago a
   is definitely not made of bees.
 
 '
-baseurl: 
+baseurl:
 url: http://stephanie.slattery.website
 twitter_username: sublimemarch
 github_username: stephmarx

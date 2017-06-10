@@ -2,6 +2,7 @@
 title: Everything I Know About Web Design I Learned from Geocities
 layout: portfolio_item
 image: "/img/geocities.png"
+date: May 2016
 ---
 
 ## A lightning talk, May 2016

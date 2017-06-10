@@ -2,6 +2,7 @@
 title: No, You Don't Need to Know My Sex
 layout: portfolio_item
 image: "/img/gender-form.png"
+date: March 2017
 ---
 
 ## A short talk, March 2017

@@ -1,14 +1,16 @@
 ---
-title: portfolio
-permalink: "/portfolio/index.html"
+title: talks
+permalink: "/talks/index.html"
 layout: default
 ---
+{% assign sortedTalks = site.talks | sort: 'date' %}
 
 <section class="portfolio-index">
-  <p>A sample of my most recent projects, including code and design.</p>
-  {% for item in site.portfolio %}
+  <p>The publicly-available talks and workshops I've delivered recently.</p>
+  {% for item in sortedTalks reversed %}
     <div class="portfolio-index-item">
       <h2 class="item-title"><a href="{{ item.url }}">{{ item.title }}</a></h2>
+      <h3 class="item-date">{{ item.date | date: "%B %Y"}}</h3>
 
       {% if item.image %}
         <a class="item-img" href="{{ item.url }}">
