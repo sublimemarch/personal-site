@@ -1,6 +1,6 @@
 ---
 title: Web Accessibility and You
-date: 2017-05-04 10:38:00 -05:00
+layout: portfolio_item
 image: "/uploads/a11y.PNG"
 ---
 
