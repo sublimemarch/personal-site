@@ -1,8 +1,8 @@
 ---
 title: Web Accessibility and You
+date: 2017-04-01 00:00:00 -05:00
 layout: portfolio_item
 image: "/img/a11y-audit.PNG"
-date: April 2017
 ---
 
 ## A three-hour workshop, April 2017
