@@ -5,7 +5,7 @@ image: "/img/geocities.png"
 ---
 
 ## A lightning talk, May 2016
-### [View Presentation as PDF](/documents/geocities.pdf) | [View Recording](https://www.youtube.com/watch?v=Q-52L_KEBO8&t=10h16m20s)
+### [View Presentation as PDF](/documents/geocities.pdf) | [View Recording](https://www.youtube.com/watch?v=tkOvb8Vt5tk)
 
 Everything I Know About Web Design I Learned from Geocities is a lightning talk written and presented at Railsconf 2016 in Kansas City, MO. I had been developing this talk since the previous year's WindyCityRails, and had a great time squishing it to fit in five minutes. In this talk, I discuss brutalist web design in the era of Geocities, and what lessons we can take from hit counters, "under construction" banners, and Comic Sans.
 
