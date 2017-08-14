@@ -6,7 +6,7 @@ image: "/img/eating.png"
 ---
 
 ## A talk, June 2017
-### [View slides on Google Drive](https://drive.google.com/open?id=1sO06DHdnb-dY7T9r7I_3yvHO7DatW0o9oH3WGHr3-Fk) | Recording (coming soon!)
+### [View slides on Google Drive](https://drive.google.com/open?id=1sO06DHdnb-dY7T9r7I_3yvHO7DatW0o9oH3WGHr3-Fk) | [Recording](https://www.youtube.com/watch?v=u-GzIWnN7qs)
 
 <br>
 
