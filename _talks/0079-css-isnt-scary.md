@@ -12,6 +12,11 @@ image: "/img/css-scary.png"
 
 "CSS Isn't Scary: How to Stop Worrying and Love Front End" is aimed at programmers who've written enough CSS to feel frustrated and is intended to help developers feel more comfortable with CSS. This talk was delivered at Chicago Coder Conference 2017 to an audience of mixed skill levels and knowledge of CSS.
 
+<br><br>
+
+
+<script async class="speakerdeck-embed" data-id="e62ba15e20154c0aab5c6596255b7d7b" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+
 <br>
 <br>
 #### Further Reading

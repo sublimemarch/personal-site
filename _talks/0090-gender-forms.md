@@ -14,6 +14,10 @@ This talk was given as part of Dev Bootcamp's "Celebrating Women's History Month
 
 <br>
 <br>
+
+<script async class="speakerdeck-embed" data-id="d984a0b5445f4dc4ab9eb7d388e0554e" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+
+<br><br>
 #### Additional links:
 - ["Sex and Gender"](https://www.formulate.com.au/blog/sex-and-gender) by Formulate Information Design
 - ["Genders and Drop-down Menus"](http://www.sarahdopp.com/blog/2008/genders-and-drop-down-menus/) by Sarah Dopp

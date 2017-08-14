@@ -1,5 +1,5 @@
 ---
-title: Accessibility: It's Not Just a Client Side Problem
+title: Accessibility It's Not Just a Client Side Problem
 date: 2017-07-30 00:00:00 -05:00
 layout: portfolio_item
 image: "/img/css-scary.png"
@@ -16,6 +16,11 @@ This was presented at <a href="https://pyohio.org/schedule/presentation/273/">Py
 
 <br>
 <br>
+
+<script async class="speakerdeck-embed" data-id="c0fdc864db9b4df7a632398f04dfee12" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+
+<br><br>
+
 #### Further Reading
 - [A Love Letter to CSS](http://developer.telerik.com/topics/web-development/love-letter-css/)
 - [Top Five CSS Mistakes](https://medium.com/thinkful/top-five-css-mistakes-6ab6944e66a2)
