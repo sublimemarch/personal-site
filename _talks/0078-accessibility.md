@@ -2,11 +2,11 @@
 title: Accessibility It's Not Just a Client Side Problem
 date: 2017-07-30 00:00:00 -05:00
 layout: portfolio_item
-image: "/img/css-scary.png"
+image: "/img/a11y-clientside.jpg"
 ---
 
 ## A one hour talk, July 2017
-### [PDF of slides](/documents/css-isnt-scary.pdf) | [Speaker Notes as Markdown](/documents/css-isnt-scary.md) | [Video of Talk at PyOhio 2017](https://www.youtube.com/watch?v=GOp5_h2SQDo&feature=youtu.be)
+### [PDF of slides](/documents/accessibility-notjust.pdf) | [Speaker Notes as Markdown](/documents/accessibility-notjust.md) | [Video of Talk at PyOhio 2017](https://www.youtube.com/watch?v=GOp5_h2SQDo&feature=youtu.be)
 
 <br>
 
@@ -18,13 +18,3 @@ This was presented at <a href="https://pyohio.org/schedule/presentation/273/">Py
 <br>
 
 <script async class="speakerdeck-embed" data-id="c0fdc864db9b4df7a632398f04dfee12" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
-
-<br><br>
-
-#### Further Reading
-- [A Love Letter to CSS](http://developer.telerik.com/topics/web-development/love-letter-css/)
-- [Top Five CSS Mistakes](https://medium.com/thinkful/top-five-css-mistakes-6ab6944e66a2)
-- [10 CSS mistakes every web designer must avoid](http://www.creativebloq.com/css3/avoid-css-mistakes-10135080)
-- [Code Smells in CSS](https://csswizardry.com/2012/11/code-smells-in-css/)
-- [CSS is Hard](https://www.darrylholtby.com/2015/03/css-is-hard/)
-- [Why CSS is Hard](https://medium.com/any-stack-any-language-anywhere/why-css-is-hard-89f3b221dd4d)
