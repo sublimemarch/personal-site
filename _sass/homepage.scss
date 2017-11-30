@@ -6,13 +6,6 @@
   display: flex;
   flex-direction: row;
 
-  img {
-    object-fit: cover;
-    height: auto;
-    width: auto;
-    -webkit-filter: url(#duochrome);
-  }
-
   &-blurb {
     line-height: 26px;
     font-size: 18px;

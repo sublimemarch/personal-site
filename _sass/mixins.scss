@@ -1,3 +1,3 @@
 @mixin border($side) {
-  border-#{$side}: 3px solid $green;
+  border-#{$side}: 6px solid $c-black;
 }

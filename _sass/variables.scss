@@ -12,6 +12,13 @@ $white: #dddddd;
 // $pink on $black (fails aaa for small text)
 // $purple on $white
 
+// New colors!
+$c-purple: #DF8CFF;
+$c-pink: #FEB5E6;
+$c-blue: #10F0F0;
+$c-black: #000000;
+$c-white: #ffffff;
+
 
 // FONTS
 $karla: 'Karla', sans-serif;
@@ -22,7 +29,7 @@ $space-mono: 'Space Mono', monospace;
 $neuton: 'Neuton', serif;
 
 $title-font: $space-mono;
-$body-font: $karla;
+$body-font: $roboto;
 
 // BREAKPOINTS
 $large-width: 1280px;
