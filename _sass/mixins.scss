@@ -1,3 +1,35 @@
 @mixin border($side) {
   border-#{$side}: 6px solid $c-black;
 }
+
+// BREAKPOINTS
+
+@mixin phone-only {
+  @media only screen and (max-width: $breakpoint-sm) {
+    @content;
+  }
+}
+
+@mixin tablet-only {
+  @media only screen and (min-width: $breakpoint-sm) and (max-width: $breakpoint-md) {
+    @content;
+  }
+}
+
+@mixin desktop-only {
+  @media only screen and (min-width: $breakpoint-md) {
+    @content;
+  }
+}
+
+@mixin phone-and-tablet {
+  @media only screen and (max-width: $breakpoint-md) {
+    @content;
+  }
+}
+
+@mixin tablet-and-desktop {
+  @media only screen and (min-width: $breakpoint-sm) {
+    @content;
+  }
+}

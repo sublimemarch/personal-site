@@ -21,12 +21,14 @@ $c-white: #ffffff;
 
 
 // FONTS
+// old
 $karla: 'Karla', sans-serif;
 $open-sans: 'Open Sans', sans-serif;
-$roboto: 'Roboto', sans-serif;
-
-$space-mono: 'Space Mono', monospace;
 $neuton: 'Neuton', serif;
+
+//new
+$space-mono: 'Space Mono', monospace;
+$roboto: 'Roboto', sans-serif;
 
 $title-font: $space-mono;
 $body-font: $roboto;
@@ -36,3 +38,6 @@ $large-width: 1280px;
 $medium-width: 1025px;
 $small-width: 670px;
 $mobile-width: 340px;
+
+$breakpoint-md: 868px;
+$breakpoint-sm: 568px;
