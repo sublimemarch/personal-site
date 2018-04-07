@@ -3,46 +3,108 @@
 }
 
 .homepage {
-  display: flex;
-  flex-direction: row;
+  max-width: 750px;
+  margin: 0 auto;
+  font-family: $space-mono;
+  font-weight: bold;
+  position: relative;
 
-  &-blurb {
-    line-height: 26px;
+  .letter {
+    font-size: 288px;
+  }
+
+  .text {
+    color: $c-black;
     font-size: 18px;
+    line-height: 26px;
+    position: absolute;
+    max-width: 298px;
   }
 
-}
+  .top, .mid, .bottom {
+    position: relative;
+  }
 
-@media only screen and (min-width: $small-width) {
-  .homepage {
-    img {
-      width: 35vw;
-      height: 35vw;
-      border-radius: 35vw;
-      max-width: 300px;
-      max-height: 300px;
+  .top {
+    margin-top: 60px;
+
+    .letter {
+      color: $c-blue;
     }
 
-    &-blurb {
-      margin-left: 1em;
+    .text {
+      top: 120px;
+      left: 100px;
     }
   }
-}
 
-@media only screen and (max-width: $small-width) {
-  .homepage {
-    flex-wrap: wrap;
-    justify-content: center;
+  .mid {
+    margin-top: 50px;
+    display: flex;
+    justify-content: flex-end;
 
-    &-blurb {
-      width: 100%;
+    .letter {
+      color: $c-pink;
     }
 
-    img {
-      width: 200px;
-      height: 200px;
-      border-radius: 250px;
-      margin-bottom: 1em;
+    .text {
+      top: 140px;
+      right: 70px;
+      text-align: right;
+    }
+  }
+
+  .bottom {
+    margin-top: 100px;
+
+    .filter {
+      position: absolute;
+      top: -5px;
+      left: -5px;
+      width: 195px;
+      height: 224px;
+      opacity: .63;
+      background-color: $c-purple;
+    }
+  }
+
+  .confetti {
+    > * {
+      position: absolute;
+
+      .symbol {
+        font-family: $roboto;
+        font-size: 72px;
+        position: absolute;
+      }
+
+      .text {
+        position: absolute;
+        font-family: $space-mono;
+        font-size: 18px;
+        font-weight: normal;
+        letter-spacing: 2px;
+      }
+    }
+
+    .c-1 {
+      top: 80px;
+      right: 70px;
+
+      .symbol {
+        color: $c-blue;
+      }
+
+      .text {
+        color: $c-pink;
+        transform: rotate(-90deg);
+        top: 40px;
+        right: -90px;
+      }
+    }
+
+    .c-2 {
+      
     }
   }
 }
