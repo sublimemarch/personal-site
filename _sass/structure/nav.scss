@@ -96,6 +96,18 @@ nav {
         }
       }
 
+      &:nth-of-type(4) {
+        &:after {
+          background-color: $c-pink;
+        }
+      }
+
+      &:nth-of-type(5) {
+        &:after {
+          background-color: $c-blue;
+        }
+      }
+
       &:hover {
         &:after {
           width: 100%;
