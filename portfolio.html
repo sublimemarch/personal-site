@@ -6,15 +6,15 @@ layout: default
 
 <section class="portfolio-index">
   <p>A sample of my most recent projects, including code and design.</p>
-  {% for item in site.portfolio %}
-    <div class="portfolio-index-item">
-      <h2 class="item-title"><a href="{{ item.url }}">{{ item.title }}</a></h2>
-
-      {% if item.image %}
-        <a class="item-img" href="{{ item.url }}">
+  <div class="portfolio-items">
+    {% for item in site.portfolio %}
+      <a href="{{ item.url }}" class="item">
+        {% if item.image %}          
           <img src="{{ item.image }}" alt="{{ item.title }}" />
+        {% endif %}
+        <div class="filter"></div>
+        <h2 class="item-title">{{ item.title }}</h2>  
         </a>
-      {% endif %}
-    </div>
-  {% endfor %}
+    {% endfor %}
+  </div>
 </section>
