@@ -3,7 +3,7 @@ title: UL Certifications Directory
 layout: portfolio_item
 image: "/img/certified_small.png"
 date: 2016-06-01 00:00:00 -05:00
-tags: [front end, design]
+tags: [front-end, design]
 ---
 
 ## An consumer-facing web app, June 2015 to June 2016

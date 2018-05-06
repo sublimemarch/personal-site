@@ -31,7 +31,6 @@
       color: black;
       border: 1px solid black;
       padding: 6px;
-      // border-radius: 3px;
       font-size: 12px;
       transition: background-color .2s ease-in-out;
 
@@ -39,7 +38,7 @@
         margin-right: 6px;
       }
 
-      &:hover {
+      &:hover, &.active {
         &:nth-child(3n - 1) {
           background-color: $c-blue;
         }
@@ -51,6 +50,10 @@
         &:nth-child(3n + 1) {
           background-color: $c-purple;
         }
+      }
+
+      a {
+        text-decoration: none;
       }
     }
   }
@@ -168,7 +171,6 @@
         color: white;
         background-color: black;
         padding: 6px;
-        // border-radius: 3px;
         font-family: $space-mono;
         font-size: 12px;
         border: 1px solid white;
@@ -178,5 +180,32 @@
         }
       }
     }
+  }
+}
+
+.blog-list-container, #all-items {
+  transition: all .3s ease-in-out;
+  
+  .portfolio-items {
+    transition: all .3s ease-in-out;
+
+    .item {
+      transition: all .3s ease-in-out;    
+    }
+  }
+}
+
+.hidden {
+  max-height: 0px;
+  opacity: 0;
+
+  .portfolio-items {
+    max-height: 0px;
+    opacity: 0;
+  }
+
+  .item {
+    max-height: 0px;
+    opacity: 0;    
   }
 }
