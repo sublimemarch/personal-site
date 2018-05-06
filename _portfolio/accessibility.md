@@ -3,6 +3,7 @@ title: Accessibility It's Not Just a Client Side Problem
 date: 2017-07-30 00:00:00 -05:00
 layout: portfolio_item
 image: "/img/a11y-clientside.jpg"
+tags: [talk, accessibility]
 ---
 
 ## A one hour talk, July 2017

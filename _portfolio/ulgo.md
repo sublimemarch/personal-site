@@ -2,6 +2,8 @@
 title: UL Go (Global Market Access Online)
 layout: portfolio_item
 image: "/img/ulgo_small.png"
+date: 2016-09-03 00:00:00 -05:00
+tags: [front end]
 ---
 
 ## An enterprise level web app, December 2015 - September 2016

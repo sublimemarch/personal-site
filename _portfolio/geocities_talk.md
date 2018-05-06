@@ -3,6 +3,7 @@ title: Everything I Know About Web Design I Learned from Geocities
 date: 2016-05-01 00:00:00 -05:00
 layout: portfolio_item
 image: "/img/geocities.png"
+tags: [talk]
 ---
 
 ## A lightning talk, May 2016

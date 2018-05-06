@@ -3,6 +3,7 @@ title: Eating in Tech
 date: 2017-06-01 00:00:00 -05:00
 layout: portfolio_item
 image: "/img/eating.png"
+tags: [talk]
 ---
 
 ## A talk, June 2017

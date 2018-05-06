@@ -2,6 +2,8 @@
 title: Infinite Mysteries, Character System
 layout: portfolio_item
 image: "/img/im_charsys_small.jpg"
+date: 2016-03-04 00:00:00 -05:00
+tags: [design, front end, back end]
 ---
 
 ## A web app, December 2015 - March 2016

@@ -2,6 +2,8 @@
 title: Humble Hearts
 layout: portfolio_item
 image: "/img/humble.jpg"
+date: 2015-05-03 00:00:00 -05:00
+tags: [front end]
 ---
 
 ## A hackathon website, May 2015

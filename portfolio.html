@@ -1,19 +1,67 @@
 ---
 title: portfolio
-permalink: "/code"
+permalink: "/portfolio"
 layout: default
 ---
 
+{% comment %}
+=======================
+The following part extracts all the tags from your portfolio and sort tags, so that you do not need to manually collect your tags to a place.
+=======================
+{% endcomment %}
+{% assign rawtags = "" %}
+{% for post in site.portfolio %}
+	{% assign ttags = post.tags | join:'|' | append:'|' %}
+	{% assign rawtags = rawtags | append:ttags %}
+{% endfor %}
+{% assign rawtags = rawtags | split:'|' | sort %}
+
+{% comment %}
+=======================
+The following part removes dulpicated tags and invalid tags like blank tag.
+=======================
+{% endcomment %}
+{% assign tags = "" %}
+{% for tag in rawtags %}
+	{% if tag != "" %}
+		{% if tags == "" %}
+			{% assign tags = tag | split:'|' %}
+		{% endif %}
+		{% unless tags contains tag %}
+			{% assign tags = tags | join:'|' | append:'|' | append:tag | split:'|' %}
+		{% endunless %}
+	{% endif %}
+{% endfor %}
+
+
+
 <section class="portfolio-index">
   <p>A sample of my most recent projects, including code and design.</p>
+  <div class="filter-row">
+    <h2>View only: </h2>
+    <ul class="tag-list">
+      {% for tag in tags %}
+      <li>
+        <a href="#{{ tag | slugify }}"> {{ tag }} </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
   <div class="portfolio-items">
-    {% for item in site.portfolio %}
+    {% for item in site.portfolio reversed %}
       <a href="{{ item.url }}" class="item">
         {% if item.image %}          
           <img src="{{ item.image }}" alt="{{ item.title }}" />
         {% endif %}
         <div class="filter"></div>
-        <h2 class="item-title">{{ item.title }}</h2>  
+        <h2 class="item-title">{{ item.title }}</h2>
+        {% if item.tags.size > 0 %}
+          <div class="tags">
+            {% for tag in item.tags %}
+              <div class="tag">{{ tag }}</div>
+            {% endfor %}
+          </div>
+        {% endif %}
         </a>
     {% endfor %}
   </div>

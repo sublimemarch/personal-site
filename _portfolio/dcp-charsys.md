@@ -2,6 +2,8 @@
 title: Dead City Productions' Character System
 layout: portfolio_item
 image: "/img/dcp_charsys_small.jpg"
+date: 2015-10-01 00:00:00 -05:00
+tags: [design, front end, back end]
 ---
 
 ## A web app, August 2015 - October 2015
