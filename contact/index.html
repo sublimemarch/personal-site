@@ -2,24 +2,39 @@
 title: Contact
 layout: default
 ---
-
-<section class="contact">
-  <h2>Contact Me</h2>
-  <ul>
-    <li>
-      <a href="https://twitter.com/sublimemarch"><i class="fa fa-twitter"></i>Twitter</a>
-    </li>
-    <li>
-      <a href="https://www.linkedin.com/in/stephmarx/"><i class="fa fa-linkedin"></i>LinkedIn</a>
-    </li>
-    <li>
-      <a href="https://github.com/stephmarx"><i class="fa fa-github"></i>Github</a>
-    </li>
-    <li>
-      <a href="https://codepen.io/stephmarx/"><i class="fa fa-codepen"></i>Codepen</a>
-    </li>
-    <li>
-      <a href="mailto:stephanie.n.marx@gmail.com"><i class="fa fa-envelope"></i>Email</a>
-    </li>
-  </ul>
-</section>
+<div class="contact">
+  <section class="accounts">
+    <h2>Contact me and find me elsewhere</h2>
+    <p>Email is the best way to get a response, but I respond to Twitter DMs a bit faster.</p>
+    <ul>
+      <li>
+        <a href="https://twitter.com/sublimemarch"><i class="fa fa-twitter"></i>Twitter</a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/stephmarx/"><i class="fa fa-linkedin"></i>LinkedIn</a>
+      </li>
+      <li>
+        <a href="https://github.com/stephmarx"><i class="fa fa-github"></i>Github</a>
+      </li>
+      <li>
+        <a href="https://codepen.io/stephmarx/"><i class="fa fa-codepen"></i>Codepen</a>
+      </li>
+      <li>
+        <a href="mailto:stephanie.n.marx@gmail.com"><i class="fa fa-envelope"></i>Email</a>
+      </li>
+    </ul>
+  </section>
+  <section class="newsletter">
+  
+    <h2>Subsrcibe to my newsletter</h2>
+    <p>Sent weekly-ish, I share professional and personal updates about what I've been up to.</p>
+  
+    <form action="https://tinyletter.com/sublimemarch" method="post"
+      target="popupwindow" onsubmit="window.open('https://tinyletter.com/sublimemarch', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+      <label for="tlemail">Enter your email address:</label>
+      <input type="email" name="email" id="tlemail" />
+      <input type="hidden" value="1" name="embed" />
+      <input type="submit" value="Subscribe" />
+    </form>
+  </section>
+</div>
