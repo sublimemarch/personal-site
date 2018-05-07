@@ -1,0 +1,247 @@
+.portfolio-index {
+  max-width: 1100px;
+  margin: 0 auto;
+  margin-top: 40px;
+
+  @include phone-only {
+    margin-top: 10px;
+  }
+
+  p {
+    margin-bottom: 12px;
+    font-family: $space-mono;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: bold;
+
+    @include phone-only {
+      font-size: 21px;
+    }
+    
+  }
+
+  .filter-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+
+    @include phone-and-tablet {
+      align-items: flex-start;
+    }
+
+    h2 {
+      font-size: 18px;
+      margin-right: 16px;
+    }
+  }
+
+  ul.tag-list {
+    display: flex;
+
+    @include phone-and-tablet {
+      flex-wrap: wrap;
+    }
+
+    li {
+      font-family: $space-mono;
+      color: black;
+      border: 1px solid black;
+      padding: 6px;
+      font-size: 12px;
+      transition: background-color .2s ease-in-out;
+
+      @include phone-and-tablet {
+        margin-bottom: 12px;
+      }
+
+      &:hover {
+        cursor: pointer;
+      }
+
+      &:not(:last-child) {
+        margin-right: 6px;
+      }
+
+      &:hover, &.active {
+        &:nth-child(3n - 1) {
+          background-color: $c-blue;
+        }
+
+        &:nth-child(3n + 0) {
+          background-color: $c-pink;
+        }
+
+        &:nth-child(3n + 1) {
+          background-color: $c-purple;
+        }
+      }
+
+      a {
+        text-decoration: none;
+      }
+    }
+  }
+
+  .portfolio-items {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .item {
+    width: calc(50% - 30px);
+    margin-bottom: 30px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    @include phone-and-tablet {
+      height: 200px;
+    }
+
+    @include phone-only {
+      width: 100%;
+
+    }
+
+    &:nth-child(3n - 1) {
+      border: 3px solid $c-blue;
+
+      .filter {
+        background-color: $c-blue;
+      }
+    }
+
+    &:nth-child(3n + 0) {
+      border: 3px solid $c-pink;
+
+      .filter {
+        background-color: $c-pink;
+      }
+    }
+
+    &:nth-child(3n + 1) {
+      border: 3px solid $c-purple;
+
+      .filter {
+        background-color: $c-purple;
+      }
+    }
+
+    &:nth-child(2n - 1) {
+      @include tablet-and-desktop {
+        margin-right: 30px;
+      }
+    }
+
+    &:hover {
+      .filter {
+        animation: slide .4s ease-in-out forwards;
+
+        @keyframes slide {
+          from {
+            width: 0;
+          }
+          to {
+            width: 100%;
+          }
+        }
+      }
+
+      h2 {
+        animation: .1s .4s fadeIn ease-in-out forwards;
+
+        @keyframes fadeIn {
+          from {
+            opacity: 0;
+          }
+          to {
+            opacity: 1;
+          }
+        }
+      }
+    }
+
+    .filter {
+      width: 0;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      opacity: .9;
+
+
+    }
+
+    img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      object-position: center;
+      filter: grayscale(100%);
+      -webkit-filter: grayscale(100%);
+    }
+
+    h2 {
+      color: $c-black;
+      text-align: center;
+      opacity: 0;
+      text-decoration: none;
+      max-width: 80%;
+      font-size: 24px;
+      line-height: 29px;
+    }
+
+    .tags {
+      position: absolute;
+      bottom: 4px;
+      right: 4px;
+      display: flex;
+
+      .tag {
+        color: white;
+        background-color: black;
+        padding: 6px;
+        font-family: $space-mono;
+        font-size: 12px;
+        border: 1px solid white;
+        
+        &:not(:last-child) {
+          margin-right: 4px;
+        }
+      }
+    }
+  }
+}
+
+.blog-list-container, #all-items {
+  transition: all .3s ease-in-out;
+  
+  .portfolio-items {
+    transition: all .3s ease-in-out;
+
+    .item {
+      transition: all .3s ease-in-out;    
+    }
+  }
+}
+
+.hidden {
+  max-height: 0px;
+  opacity: 0;
+
+  .portfolio-items {
+    max-height: 0px;
+    opacity: 0;
+  }
+
+  .item {
+    max-height: 0px;
+    opacity: 0;
+    margin-bottom: 0;    
+  }
+}

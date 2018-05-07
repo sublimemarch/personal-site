@@ -1,0 +1,192 @@
+.defs-only {
+  display: none;
+}
+
+.homepage {
+  max-width: 750px;
+  margin: 0 auto;
+  font-family: $space-mono;
+  font-weight: bold;
+  position: relative;
+
+  .letter {
+    font-size: 288px;
+
+    @include phone-only {
+      font-size: 200px;
+    }
+  }
+
+  .text {
+    color: $c-black;
+    font-size: 18px;
+    line-height: 26px;
+    position: absolute;
+    max-width: 298px;
+  }
+
+  .top, .mid, .bottom {
+    position: relative;
+  }
+
+  .top {
+    margin-top: 60px;
+
+    @include phone-only {
+      margin-top: 0;
+    }
+
+    @include tablet-only {
+      margin-left: 100px;
+    }
+
+    .letter {
+      color: $c-blue;
+    }
+
+    .text {
+      top: 120px;
+      left: 100px;
+
+      @include phone-only {
+        top: 60px;
+      }
+    }
+  }
+
+  .mid {
+    margin-top: 50px;
+    display: flex;
+    justify-content: flex-end;
+
+    @include tablet-only {
+      margin-right: 100px;
+    }
+
+    .letter {
+      color: $c-pink;
+    }
+
+    .text {
+      top: 140px;
+      right: 70px;
+      text-align: right;
+
+      @include phone-only {
+        top: 70px;
+      }
+    }
+  }
+
+  .bottom {
+    margin-top: 100px;
+
+    @include tablet-only {
+      margin-left: 100px;
+    }
+
+    .filter {
+      position: absolute;
+      top: -5px;
+      left: -5px;
+      width: 195px;
+      height: 224px;
+      opacity: .63;
+      background-color: $c-purple;
+    }
+  }
+
+  .confetti {
+    > * {
+      position: absolute;
+
+      .symbol {
+        font-family: $roboto;
+        font-size: 72px;
+        position: absolute;
+      }
+
+      .text {
+        position: absolute;
+        font-family: $space-mono;
+        font-size: 18px;
+        font-weight: normal;
+        letter-spacing: 2px;
+      }
+    }
+
+    .c-1 {
+      top: 80px;
+      right: 70px;
+
+      @include phone-only {
+        top: 160px;
+      }
+
+      @include tablet-only {
+        right: 120px;
+        top: 0;
+      }
+
+      .symbol {
+        color: $c-blue;
+      }
+
+      .text {
+        color: $c-pink;
+        transform: rotate(-90deg);
+        top: 40px;
+        right: -90px;
+      }
+    }
+
+    .c-2 {
+      top: 600px;
+      right: -30px;
+
+      @include phone-only {
+        right: 30px;
+      }
+
+      @include tablet-only {
+        right: 80px;
+        top: 700px;
+      }
+
+      .symbol {
+        color: $c-purple;
+      }
+
+      .text {
+        color: $c-blue;
+        transform: scale(-1, 1);
+        top: 10px;
+        right: -30px;
+      }
+    }
+
+    .c-3 {
+      top: 350px;
+      left: 0px;
+
+      @include phone-only {
+        top: 240px;
+      }
+
+      @include tablet-only {
+        left: 40px;
+      }
+
+      .symbol {
+        color: $c-pink;
+      }
+
+      .text {
+        color: $c-blue;
+        transform: scale(-1, 1);
+        top: 20px;
+        right: -70px;
+      }
+    }
+  }
+}

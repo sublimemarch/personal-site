@@ -1,20 +1,101 @@
 ---
 title: portfolio
-permalink: "/portfolio/index.html"
+permalink: "/portfolio"
 layout: default
 ---
 
-<section class="portfolio-index">
-  <p>A sample of my most recent projects, including code and design.</p>
-  {% for item in site.portfolio %}
-    <div class="portfolio-index-item">
-      <h2 class="item-title"><a href="{{ item.url }}">{{ item.title }}</a></h2>
+{% comment %}
+=======================
+The following part extracts all the tags from your portfolio and sort tags, so that you do not need to manually collect your tags to a place.
+=======================
+{% endcomment %}
+{% assign rawtags = "" %}
+{% for post in site.portfolio %}
+	{% assign ttags = post.tags | join:'|' | append:'|' %}
+	{% assign rawtags = rawtags | append:ttags %}
+{% endfor %}
+{% assign rawtags = rawtags | split:'|' | sort %}
 
-      {% if item.image %}
-        <a class="item-img" href="{{ item.url }}">
+{% comment %}
+=======================
+The following part removes dulpicated tags and invalid tags like blank tag.
+=======================
+{% endcomment %}
+{% assign tags = "" %}
+{% for tag in rawtags %}
+	{% if tag != "" %}
+		{% if tags == "" %}
+			{% assign tags = tag | split:'|' %}
+		{% endif %}
+		{% unless tags contains tag %}
+			{% assign tags = tags | join:'|' | append:'|' | append:tag | split:'|' %}
+		{% endunless %}
+	{% endif %}
+{% endfor %}
+
+
+
+<section class="portfolio-index">
+  <p>Some things I've made.</p>
+  <div class="filter-row">
+    <h2>View: </h2>
+    <ul class="tag-list blog-tags-list">
+      <li class="active" id="all-tag">
+        <a onclick="viewAll(); return false;">all</a>
+      </li>
+      {% for tag in tags %}
+      <li class="blog-tag-item" id="{{tag}}-item">
+        <a onclick="filter('{{ tag }}'); return false;"> {{ tag }} </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+
+  <div id="all-items">
+    <div class="portfolio-items">
+    {% for item in site.portfolio reversed %}
+      <a href="{{ item.url }}" class="item">
+        {% if item.image %}          
           <img src="{{ item.image }}" alt="{{ item.title }}" />
+        {% endif %}
+        <div class="filter"></div>
+        <h2 class="item-title">{{ item.title }}</h2>
+        {% if item.tags.size > 0 %}
+          <div class="tags">
+            {% for tag in item.tags %}
+              <div class="tag">{{ tag }}</div>
+            {% endfor %}
+          </div>
+        {% endif %}
         </a>
-      {% endif %}
+    {% endfor %}
+    </div>
+  </div>
+
+  {% for tag in tags %}
+    {% assign t = tag | first %}
+    {% assign portfolio = tag | last %}
+    <div class="blog-list-container hidden" id="{{ tag }}-container">
+      <div class="portfolio-items">
+        {% for item in site.portfolio reversed %}
+          {% if item.tags contains tag %}
+            <a href="{{ item.url }}" class="item">
+              {% if item.image %}          
+                <img src="{{ item.image }}" alt="{{ item.title }}" />
+              {% endif %}
+              <div class="filter"></div>
+              <h2 class="item-title">{{ item.title }}</h2>
+              {% if item.tags.size > 0 %}
+                <div class="tags">
+                  {% for tag in item.tags %}
+                    <div class="tag">{{ tag }}</div>
+                  {% endfor %}
+                </div>
+              {% endif %}
+              </a>
+          {% endif %}
+        {% endfor %}
+      </div>
     </div>
   {% endfor %}
 </section>

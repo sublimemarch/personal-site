@@ -1,7 +1,7 @@
 body {
   font-family: $body-font;
   font-size: 18px;
-  color: $green;
+  color: $c-black;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -31,5 +31,13 @@ p {
 }
 
 a {
-  color: $pink;
+  color: $c-black;
+}
+
+p a {
+  color: $c-black;
+  border-bottom: 3px solid $c-black;
+  text-decoration: none;
+  // background-color: $c-blue;
+  padding: 1px;
 }

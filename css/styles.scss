@@ -1,18 +1,24 @@
 ---
 ---
 
-@import url('https://fonts.googleapis.com/css?family=Neuton|Space+Mono');
+@import url('https://fonts.googleapis.com/css?family=Roboto|Space+Mono:400,400i,700');
 @import url('https://fonts.googleapis.com/css?family=Karla|Open+Sans|Roboto');
 
 @import "variables";
 @import "typography";
 @import "mixins";
-@import "structure";
-@import "contact";
-@import "portfolio";
-@import "homepage";
-@import "now";
+
+@import "structure/footer";
+@import "structure/nav";
+@import "structure/wrapper";
+
+@import "templates/contact";
+@import "templates/homepage";
+@import "templates/now";
+@import "templates/portfolio-index";
+@import "templates/speaker-info";
+@import "templates/portfolio-item";
 
 body {
-  background-color: $black;
+  background-color: $c-white;
 }

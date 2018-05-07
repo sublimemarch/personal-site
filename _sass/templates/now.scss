@@ -1,0 +1,61 @@
+.now {
+  max-width: 830px;
+  margin: 0 auto;
+  margin-top: 50px;
+
+  @include tablet-only {
+    padding: 0 20px;
+  }
+
+  @include phone-only {
+    margin-top: 16px;
+  }
+
+  h2 {
+    font-family: $space-mono;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 24px;
+    margin-bottom: 8px;
+
+    @include phone-only {
+      font-size: 21px;
+    }
+  }
+
+  .now-what {
+    margin-bottom: 30px;
+    font-style: italic;
+    font-family: $space-mono;
+    margin-left: 100px;
+
+    @include phone-only {
+      margin-left: 15px;
+    }
+  }
+
+  li {
+    list-style-type: disc;
+    margin-bottom: 18px;
+    margin-left: 36px;
+  }
+
+  ul {
+    margin-bottom: 40px;
+    margin-left: 100px;
+
+    @include phone-only {
+      margin-left: 15px;
+      padding-right: 15px;
+    }
+  }
+
+  p {
+    margin-left: 100px;
+    font-family: $space-mono;
+
+    @include phone-only {
+      margin-left: 15px;
+    }
+  }
+}
