@@ -6,7 +6,7 @@ date: 2018-01-26 00:00:00 -05:00
 tags: [writing]
 ---
 
-## A tweetstorm with resources for first-time tech conference speakers.
-### [Live Site](https://twitter.com/sublimemarch/status/957010073590681605)
+### A tweetstorm with resources for first-time tech conference speakers.
+#### [Live Site](https://twitter.com/sublimemarch/status/957010073590681605)
 
 More information coming soon.

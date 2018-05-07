@@ -6,8 +6,8 @@ image: "/img/a11y-clientside.jpg"
 tags: [talk, accessibility]
 ---
 
-## A one hour talk, July 2017
-### [PDF of slides](/documents/accessibility-notjust.pdf) | [Speaker Notes as Markdown](/documents/accessibility-notjust.md) | [Video of Talk at PyOhio 2017](https://www.youtube.com/watch?v=GOp5_h2SQDo&feature=youtu.be)
+### A one hour talk, July 2017
+#### [PDF of slides](/documents/accessibility-notjust.pdf) | [Speaker Notes as Markdown](/documents/accessibility-notjust.md) | [Video of Talk at PyOhio 2017](https://www.youtube.com/watch?v=GOp5_h2SQDo&feature=youtu.be)
 
 <br>
 

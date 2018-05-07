@@ -18,7 +18,7 @@ layout: default
     <div class="filter"></div>
   </div>
   <div class="confetti">
-    <div class="c-1">
+    <div class="c-1 parallax-immediate">
       <div class="symbol">
         </
       </div>
@@ -26,7 +26,7 @@ layout: default
         justify
       </div>
     </div>
-    <div class="c-2">
+    <div class="c-2 parallax-immediate">
       <div class="symbol">
         };
       </div>
@@ -34,7 +34,7 @@ layout: default
         root@
       </div>
     </div>
-    <div class="c-3">
+    <div class="c-3 parallax-immediate">
       <div class="symbol">
         ="
       </div>

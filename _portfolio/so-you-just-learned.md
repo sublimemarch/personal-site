@@ -6,7 +6,7 @@ date: 2017-04-01 00:00:00 -05:00
 tags: [writing, diversity-and-inclusion]
 ---
 
-## A guide to understanding current problems with the tech industry. April 2017 - ongoing.
-### [Live Site](https://github.com/stephmarx/so-you-just-learned)
+### A guide to understanding current problems with the tech industry. April 2017 - ongoing.
+#### [Live Site](https://github.com/stephmarx/so-you-just-learned)
 
 More information coming soon.

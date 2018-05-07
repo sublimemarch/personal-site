@@ -6,8 +6,8 @@ image: "/img/gender-form.png"
 tags: [talk, diversity-and-inclusion]
 ---
 
-## A short talk, March 2017
-### [PDF of slides](/documents/gender-form.pdf) | [Markdown of speaker notes](/documents/gender_on_forms.md) | [Recording](https://vimeo.com/216276934/c93f7b6755)
+### A short talk, March 2017
+#### [PDF of slides](/documents/gender-form.pdf) | [Markdown of speaker notes](/documents/gender_on_forms.md) | [Recording](https://vimeo.com/216276934/c93f7b6755)
 
 <br>
 

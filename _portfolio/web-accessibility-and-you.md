@@ -6,8 +6,8 @@ image: "/img/a11y-audit.PNG"
 tags: [workshop, accessibility]
 ---
 
-## A three-hour workshop, April 2017
-### [PDF of slides](/documents/gender-form.pdf) | [GitHub Repo of Resources](https://github.com/stephmarx/a11y-workshop)
+### A three-hour workshop, April 2017
+#### [PDF of slides](/documents/gender-form.pdf) | [GitHub Repo of Resources](https://github.com/stephmarx/a11y-workshop)
 
 <br>
 

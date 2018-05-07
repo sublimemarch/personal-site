@@ -3,11 +3,11 @@ title: CSS Isn't Scary
 date: 2017-06-26 00:00:00 -05:00
 layout: portfolio_item
 image: "/img/css-scary.png"
-tags: [talk]
+tags: [talk, front-end]
 ---
 
-## A one hour talk, June 2017
-### [PDF of slides](/documents/css-isnt-scary.pdf) | [Speaker Notes as Markdown](/documents/css-isnt-scary.md)
+### A one hour talk, June 2017
+#### [PDF of slides](/documents/css-isnt-scary.pdf) | [Speaker Notes as Markdown](/documents/css-isnt-scary.md)
 
 <br>
 

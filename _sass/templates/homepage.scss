@@ -11,6 +11,10 @@
 
   .letter {
     font-size: 288px;
+
+    @include phone-only {
+      font-size: 200px;
+    }
   }
 
   .text {
@@ -28,6 +32,14 @@
   .top {
     margin-top: 60px;
 
+    @include phone-only {
+      margin-top: 0;
+    }
+
+    @include tablet-only {
+      margin-left: 100px;
+    }
+
     .letter {
       color: $c-blue;
     }
@@ -35,6 +47,10 @@
     .text {
       top: 120px;
       left: 100px;
+
+      @include phone-only {
+        top: 60px;
+      }
     }
   }
 
@@ -42,6 +58,10 @@
     margin-top: 50px;
     display: flex;
     justify-content: flex-end;
+
+    @include tablet-only {
+      margin-right: 100px;
+    }
 
     .letter {
       color: $c-pink;
@@ -51,11 +71,19 @@
       top: 140px;
       right: 70px;
       text-align: right;
+
+      @include phone-only {
+        top: 70px;
+      }
     }
   }
 
   .bottom {
     margin-top: 100px;
+
+    @include tablet-only {
+      margin-left: 100px;
+    }
 
     .filter {
       position: absolute;
@@ -91,6 +119,15 @@
       top: 80px;
       right: 70px;
 
+      @include phone-only {
+        top: 160px;
+      }
+
+      @include tablet-only {
+        right: 120px;
+        top: 0;
+      }
+
       .symbol {
         color: $c-blue;
       }
@@ -107,6 +144,15 @@
       top: 600px;
       right: -30px;
 
+      @include phone-only {
+        right: 30px;
+      }
+
+      @include tablet-only {
+        right: 80px;
+        top: 700px;
+      }
+
       .symbol {
         color: $c-purple;
       }
@@ -122,6 +168,14 @@
     .c-3 {
       top: 350px;
       left: 0px;
+
+      @include phone-only {
+        top: 240px;
+      }
+
+      @include tablet-only {
+        left: 40px;
+      }
 
       .symbol {
         color: $c-pink;
