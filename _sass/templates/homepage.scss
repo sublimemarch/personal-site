@@ -85,12 +85,17 @@
       margin-left: 100px;
     }
 
+    img {
+      width: 250px;
+      height: 250px;
+    }
+
     .filter {
       position: absolute;
       top: -5px;
       left: -5px;
-      width: 195px;
-      height: 224px;
+      width: 261px;
+      height: 261px;
       opacity: .63;
       background-color: $c-purple;
     }
