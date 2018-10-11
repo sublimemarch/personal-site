@@ -3,7 +3,7 @@ title: CSS Isn't Scary - IndyCode
 date: 2018-04-18 00:00:00 -05:00
 layout: portfolio_item
 image: "/img/css-indy.png"
-tags: [talk, front-end]
+tags: [talk, code]
 ---
 
 ### A one hour talk, given at <a href="https://indycode.amegala.com/Sessions/514">IndyCode</a> April 2018.

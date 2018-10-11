@@ -3,7 +3,7 @@ title: CCIM
 layout: portfolio_item
 image: "/img/ccim.png"
 date: 2018-08-14 00:01:00 -05:00
-tags: [front-end]
+tags: [code]
 ---
 
 ### A microsite for classes with CCIM. February 2018 to August 2018.

@@ -3,7 +3,7 @@ title: CSS Isn't Scary
 date: 2017-06-26 00:00:00 -05:00
 layout: portfolio_item
 image: "/img/css-scary.png"
-tags: [talk, front-end]
+tags: [talk, code]
 ---
 
 ### A one hour talk, June 2017
