@@ -6,7 +6,7 @@ tags:
 - game
 - writing
 image: "/img/whats a vaporwave.png"
-published: false
+published: true
 
 ---
 ### A 200 word RPG.
