@@ -19,3 +19,5 @@ fields:
 - type: file
   name: image
   label: image
+pages:
+- _portfolio/what-s-a-vaporwave.md
