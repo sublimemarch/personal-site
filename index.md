@@ -5,16 +5,16 @@ layout: default
 <div class="homepage">
   <div class="top">
     <div class="letter">N</div>
-    <div class="text">Front end engineer and accessibility advocate in Chicagoland.</div>
+    <div class="text">Accessibility lead and front end engineer in Chicagoland</div>
   </div>
   <div class="mid">
     <div class="letter">@</div>
     <div class="text">
-    Conference speaker, meetup organizer, and queer cyberpunk protagonist with cool hair.
+    Queer cyberpunk protagonist with cool hair, zine creator, and roleplaying game storyteller.
     </div>
   </div>
   <div class="bottom">
-    <img src="/img/headshot-bw.png" alt="Stephanie's headshot in black and white">
+    <img src="/img/headshot-bw.png" alt="Fen's headshot in black and white">
     <div class="filter"></div>
   </div>
   <div class="confetti">
