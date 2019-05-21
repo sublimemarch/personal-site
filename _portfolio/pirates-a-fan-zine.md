@@ -6,7 +6,6 @@ tags:
 - zine
 - design
 image: "/img/p18DLC.jpg"
-published: false
 
 ---
 ### A collaborative "fan" zine about the worst Pirates of the Caribbean movie.
