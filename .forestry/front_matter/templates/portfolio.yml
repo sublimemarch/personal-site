@@ -19,4 +19,5 @@ fields:
   name: image
   label: image
 pages:
+- _portfolio/pirates-a-fan-zine.md
 - _portfolio/what-s-a-vaporwave.md
