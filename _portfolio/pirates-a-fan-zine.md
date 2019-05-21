@@ -5,7 +5,7 @@ tags:
 - writing
 - zine
 - design
-image: ''
+image: "/img/p18DLC.jpg"
 published: false
 
 ---
