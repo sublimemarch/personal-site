@@ -5,7 +5,6 @@ tags:
 - zine
 - writing
 image: "/img/calling in.png"
-published: false
 
 ---
 ### A mini zine about feedback.
