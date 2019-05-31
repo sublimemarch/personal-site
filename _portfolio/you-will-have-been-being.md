@@ -5,7 +5,6 @@ tags:
 - game
 - writing
 image: "/img/ANnhPe.png"
-published: false
 
 ---
 ### A 200 word LARP for one person about experiencing time.
