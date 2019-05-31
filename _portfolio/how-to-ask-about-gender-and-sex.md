@@ -5,7 +5,6 @@ tags:
 - talk
 - LGBTQ
 image: "/img/Screen Shot 2019-05-30 at 7.51.13 PM.png"
-published: false
 
 ---
 ### An hourlong talk presented at [World Information Architecture Day 2019](https://www.worldiaday.org/events/chicago/2019).
