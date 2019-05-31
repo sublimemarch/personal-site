@@ -5,7 +5,6 @@ tags:
 - game
 - writing
 image: "/img/itch header.png"
-published: false
 
 ---
 ### A 200 word RPG about the evils of Big Tech.
