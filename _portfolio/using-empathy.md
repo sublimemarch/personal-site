@@ -1,13 +1,15 @@
 ---
 title: Differentiate Yourself Using Empathy
-date: 2019-01-08 00:00:00 -05:00
+date: 2019-01-08T05:00:00.000+00:00
 layout: portfolio_item
 image: "/img/differentiate-yourself.png"
-tags: [talk]
----
+tags:
+- talk
 
+---
 ### A 10-minute talk given at Dev Together's "Your first dev job" lightning talk event.
-#### [View slides on Deckset](https://speakerdeck.com/sublimemarch/differentiate-yourself-using-empathy)
+
+#### [View slides on Deckset](https://speakerdeck.com/sublimemarch/differentiate-yourself-using-empathy) | [Watch recording on Youtube](https://www.youtube.com/watch?v=wZ93s1a79RY)
 
 <br>
 
