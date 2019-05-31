@@ -5,7 +5,6 @@ tags:
 - writing
 - game
 image: "/img/brand actualization header.png"
-published: false
 
 ---
 ### A 200 word LARP about an awful meeting.
