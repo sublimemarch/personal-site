@@ -4,6 +4,8 @@ layout: portfolio_item
 image: "/img/conference-resources.png"
 date: 2018-01-26 00:00:00 -05:00
 tags: [writing]
+published: false
+
 ---
 
 ### A tweetstorm with resources for first-time tech conference speakers.

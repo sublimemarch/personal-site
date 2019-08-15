@@ -103,6 +103,11 @@
     img {
       width: 375px;
       height: 250px;
+
+      @include phone-only {
+        width: 200px;
+        height: 125px;
+      }
     }
 
     .filter {
@@ -113,6 +118,11 @@
       height: 261px;
       opacity: .63;
       background-color: $c-purple;
+
+      @include phone-only {
+        width: 211px;
+        height: 136px;
+      }
     }
   }
 
