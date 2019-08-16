@@ -19,11 +19,11 @@ fields:
   name: image
   label: image
 pages:
-- _portfolio/pirates-a-fan-zine.md
-- _portfolio/how-to-ask-about-gender-and-sex.md
-- _portfolio/prime-blessings.md
-- _portfolio/calling-in-vs-calling-out.md
-- _portfolio/brand-actualization.md
-- _portfolio/you-will-have-been-being.md
 - _portfolio/cross-cultural-differences.md
+- _portfolio/brand-actualization.md
+- _portfolio/how-to-ask-about-gender-and-sex.md
+- _portfolio/you-will-have-been-being.md
+- _portfolio/calling-in-vs-calling-out.md
+- _portfolio/prime-blessings.md
+- _portfolio/pirates-a-fan-zine.md
 - _portfolio/what-s-a-vaporwave.md
