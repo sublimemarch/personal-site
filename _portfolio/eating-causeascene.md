@@ -7,7 +7,7 @@ tags: [talk, diversity-and-inclusion]
 ---
 
 ### A 20-minute talk given at the #causeascene Chicago conference series
-#### [View slides on Google Drive](https://docs.google.com/presentation/d/11aVtYaDizP2nWT22mz18dMsidyHLKhIBHujVO2vcylU/edit?usp=sharing) | [Recording](https://www.youtube.com/watch?v=zTBswkRyCFs&feature=youtu.be)
+#### [View slides on Google Drive](https://docs.google.com/presentation/d/11aVtYaDizP2nWT22mz18dMsidyHLKhIBHujVO2vcylU/edit?usp=sharing) | [Recording](https://www.youtube.com/watch?v=zTBswkRyCFs&feature=youtu.be) | [Previous Recording](https://www.youtube.com/watch?v=u-GzIWnN7qs)
 
 <br>
 

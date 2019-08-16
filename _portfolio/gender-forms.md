@@ -4,6 +4,8 @@ date: 2017-03-01 00:00:00 -06:00
 layout: portfolio_item
 image: "/img/gender-form.png"
 tags: [talk, diversity-and-inclusion, LGBTQ]
+published: false
+
 ---
 
 ### A short talk, March 2017

@@ -4,6 +4,8 @@ layout: portfolio_item
 image: "/img/pronouns-twitter.png"
 date: 2018-05-29 00:00:00 -05:00
 tags: [writing, diversity-and-inclusion, LGBTQ]
+published: false
+
 ---
 
 ### A tweetstorm about how to use pronoun buttons and stickers at live events to be more inclusive of trans and nonbinary people.

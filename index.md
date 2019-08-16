@@ -3,18 +3,24 @@ layout: default
 ---
 
 <div class="homepage">
-  <div class="top">
+  <div class="row left">
     <div class="letter">N</div>
-    <div class="text">Accessibility lead and front end engineer in Chicagoland</div>
+    <div class="text">Digital inclusion and <a href="/accessibility">accessibility</a> expert by day.</div>
   </div>
-  <div class="mid">
+  <div class="row right">
     <div class="letter">@</div>
     <div class="text">
-    Queer cyberpunk protagonist with cool hair, zine creator, and roleplaying game storyteller.
+    Zine and roleplaying game author by night.
     </div>
   </div>
+  <div class="row wide">
+    <p class="text">
+      I exist at the intersection of web engineering, storytelling, and empathy. I educate and empower others to make the world a better place through mentoring, workshops, conference talks, podcast episodes, zines, and articles. I believe that the best way to include people of marginalized identities is to sit down and listen; and that the best way to ensure a safer future for people with identities like my own is to stand up and yell.
+    </p>
+    <p class="text">I make beautiful and weird and ugly and meaningful things. Interested in having me speak at your event, or consult on a project? <a href="/contact">Get in touch.</a></p>
+  </div>
   <div class="bottom">
-    <img src="/img/headshot-bw.png" alt="Fen's headshot in black and white">
+    <img src="/img/headshots/fen-slattery04.jpg" alt="Fen's headshot">
     <div class="filter"></div>
   </div>
   <div class="confetti">

@@ -25,11 +25,11 @@
     max-width: 298px;
   }
 
-  .top, .mid, .bottom {
+  .row, .bottom {
     position: relative;
   }
 
-  .top {
+  .row.left {
     margin-top: 60px;
 
     @include phone-only {
@@ -54,7 +54,7 @@
     }
   }
 
-  .mid {
+  .row.right {
     margin-top: 50px;
     display: flex;
     justify-content: flex-end;
@@ -78,6 +78,21 @@
     }
   }
 
+  .row.wide {
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    .text {
+      max-width: 600px;
+      font-weight: normal;
+      position: relative;
+
+      &:not(:first-of-type) {
+        margin-top: 30px;
+      }
+    }
+  }
+
   .bottom {
     margin-top: 100px;
 
@@ -86,18 +101,28 @@
     }
 
     img {
-      width: 250px;
+      width: 375px;
       height: 250px;
+
+      @include phone-only {
+        width: 200px;
+        height: 125px;
+      }
     }
 
     .filter {
       position: absolute;
       top: -5px;
       left: -5px;
-      width: 261px;
+      width: 386px;
       height: 261px;
       opacity: .63;
       background-color: $c-purple;
+
+      @include phone-only {
+        width: 211px;
+        height: 136px;
+      }
     }
   }
 
@@ -146,7 +171,7 @@
     }
 
     .c-2 {
-      top: 600px;
+      top: 900px;
       right: -30px;
 
       @include phone-only {
@@ -171,7 +196,7 @@
     }
 
     .c-3 {
-      top: 350px;
+      top: 450px;
       left: 0px;
 
       @include phone-only {
