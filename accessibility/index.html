@@ -1,0 +1,64 @@
+---
+title: Accessibility
+permalink: "/accessibility"
+layout: default
+---
+<section class="topic-intro">
+  <h2>Accessibility</h2>
+  <p>We have an ethical responsibility to make sure everyone can use what we create. In my work as an Accessibility Lead, I educate and guide my team through the process of building websites that are usable by people with disabilities. Accessibility is easier the earlier you integrate it into your process, and so I represent accessibility needs throughout discovery, design, development, and delivery. I build the knowledge of my team, as well as educating a wide variety of audiences via talks, workshops, podcasts, and writing. I'm also a co-organizer of the <a href="https://www.meetup.com/a11ychi/">Chicago Digital Accessibility and Inclusive Design
+    meetup.</a></p>
+  <p>Looking to learn more about accessibilty or have me speak at your organization? <a href="/contact">Get in touch</a>, and I'll see how I can help. I'm available for a limited amount of mentoring for junior developers and designers looking to grow their personal accessibility skills.</p>
+</section>
+<section class="portfolio-index topic-portfolio">
+  <h3>Some recent accessibility writing and presentations.</h3>
+  <p>Looking for more of my work? Check out <a href="/portfolio">my full portfolio.</a></p>
+  <div id="all-items">
+    <div class="portfolio-items">
+    {% for item in site.portfolio reversed %}
+      {% if item.tags contains "accessibility" %}
+        <a href="{{ item.url }}" class="item">
+          {% if item.image %}          
+            <img src="{{ item.image }}" alt="{{ item.title }}" />
+          {% endif %}
+          <div class="filter"></div>
+          <h2 class="item-title">{{ item.title }}</h2>
+          {% if item.tags.size > 0 %}
+            <div class="tags">
+              {% for tag in item.tags %}
+                <div class="tag">{{ tag }}</div>
+              {% endfor %}
+            </div>
+          {% endif %}
+          </a>
+        {% endif %}
+    {% endfor %}
+    </div>
+  </div>
+
+  {% for tag in tags %}
+    {% assign t = tag | first %}
+    {% assign portfolio = tag | last %}
+    <div class="blog-list-container hidden" id="{{ tag }}-container">
+      <div class="portfolio-items">
+        {% for item in site.portfolio reversed %}
+          {% if item.tags contains tag %}
+            <a href="{{ item.url }}" class="item">
+              {% if item.image %}          
+                <img src="{{ item.image }}" alt="{{ item.title }}" />
+              {% endif %}
+              <div class="filter"></div>
+              <h2 class="item-title">{{ item.title }}</h2>
+              {% if item.tags.size > 0 %}
+                <div class="tags">
+                  {% for tag in item.tags %}
+                    <div class="tag">{{ tag }}</div>
+                  {% endfor %}
+                </div>
+              {% endif %}
+              </a>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  {% endfor %}
+</section>

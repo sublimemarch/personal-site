@@ -62,7 +62,7 @@
         margin-right: 6px;
       }
 
-      &:hover, &.active {
+      &:hover, &.active, &:focus {
         &:nth-child(3n - 1) {
           background-color: $c-blue;
         }
@@ -135,7 +135,7 @@
       }
     }
 
-    &:hover {
+    &:hover, &:focus {
       .filter {
         animation: slide .4s ease-in-out forwards;
 

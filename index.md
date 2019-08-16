@@ -5,7 +5,7 @@ layout: default
 <div class="homepage">
   <div class="row left">
     <div class="letter">N</div>
-    <div class="text">Digital inclusion and accessibility expert by day.</div>
+    <div class="text">Digital inclusion and <a href="/accessibility">accessibility</a> expert by day.</div>
   </div>
   <div class="row right">
     <div class="letter">@</div>
