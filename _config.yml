@@ -16,14 +16,14 @@ collections:
     title: Uploads
     output: true
 email: stephanie.n.marx@gmail.com
-description: 'Stephanie Slattery is a front end web developer based in Chicago and
+description: 'Fen Slattery is a front end web developer based in Chicago and
   is definitely not made of bees.
 
 '
 baseurl: 
-url: http://stephanie.slattery.website
+url: http://fenslattery.com
 twitter_username: sublimemarch
-github_username: stephmarx
+github_username: sublimemarch
 markdown: kramdown
 theme: minima
 gems:
